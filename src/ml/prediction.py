@@ -22,6 +22,7 @@ def next_day_prediction(symbol:str,  period:str) -> dict:
         "symbol": symbol,
         "period": period,
         "predicted_price": round(prediction, 2),
-        "trend": "up" if prediction > last_price else "down"
+        "trend": "up" if prediction > last_price else "down",
+        "note": "This is for educational purposes"
     }
     
