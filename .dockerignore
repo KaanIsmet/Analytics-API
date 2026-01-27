@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+*.md
+!README.md
+
+# Docker
+Dockerfile*
+compose.yaml
+.dockerignore
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+
